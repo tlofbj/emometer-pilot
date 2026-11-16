@@ -1,0 +1,4 @@
+neuronpedia
+python-dotenv
+ipykernel
+matplotlib
