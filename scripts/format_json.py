@@ -20,7 +20,7 @@ def format_json(path, indent):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Pretty-print a JSON file in place.")
-    parser.add_argument("path", nargs="?", default="words.json")
+    parser.add_argument("path", nargs="?", default="data/lexicons/labMT-en-v1.json")
     parser.add_argument("--indent", type=int, default=2)
     args = parser.parse_args()
 

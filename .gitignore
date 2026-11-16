@@ -1,0 +1,15 @@
+# secrets and local environment
+.env
+.venv/
+
+# Neuronpedia response caches (rebuilt on demand)
+.activation_cache/
+.search_cache/
+.layer_cache/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
